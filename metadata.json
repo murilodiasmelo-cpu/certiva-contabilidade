@@ -1,0 +1,6 @@
+{
+  "name": "Certiva Contabilidade",
+  "description": "Site institucional clássico da Certiva Contabilidade — assessoria contábil, fiscal, tributária, trabalhista e abertura de empresas em Goiânia desde 2008. Empresa do Grupo Certiva Participações.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Manrope", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-certiva-navy: #09273E;
+  --color-certiva-navy-light: #103A5C;
+  --color-certiva-green: #38B55B;
+  --color-certiva-green-dark: #2C9649;
+  --color-certiva-slate: #5A6065;
+  --color-certiva-surface: #F7F9FB;
+  --color-certiva-border: #E2E8F0;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    color: #09273E;
+    background-color: #FFFFFF;
+  }
+
+  h1, h2, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.025em;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
